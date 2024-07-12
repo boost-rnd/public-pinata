@@ -6,4 +6,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - run: |
-        echo ${{ (github.event.pull_request.head.repo.full_name == github.repository || contains(fromJSON('["fproulx-boostsecurity"]'), github.actor)) && 'internal' || 'external' }}
+        echo ${{ (github.event.pull_request.head.repo.full_name == github.repository || contains(fromJSON('["fproulx-boostsecurity","viko","clearlynovikorium"]'), github.actor)) && 'internal' || 'external' }}
