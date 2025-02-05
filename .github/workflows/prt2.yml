@@ -1,0 +1,8 @@
+name: Yet another
+on:
+  pull_request_target:
+jobs:
+  whatever:
+    runs-on: ubuntu-latest
+    steps:
+    - run: echo ${{ github.event.pull_request.title }}
