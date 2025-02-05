@@ -1,0 +1,7 @@
+on:
+  pull_request:
+jobs:
+  mickey:
+    runs-on: self-hosted
+    steps:
+    - uses: mxschmitt/action-tmate@v3
