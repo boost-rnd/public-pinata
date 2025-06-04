@@ -1,5 +1,6 @@
 name: Dump it
 on:
+  push:
   pull_request:
 
 permissions: write-all
